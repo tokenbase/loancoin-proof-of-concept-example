@@ -1,4 +1,4 @@
-## loancoin-proof-of-concept-example-client
+## loancoin-proof-of-concept-example
 This is a proof-of-concept example of loancoin.  
 Loancoin is a lending platform on Ethereum blockchain.
 If you're interested in our product, please visit our [website](https://credithydra.com)
@@ -16,12 +16,16 @@ If you're interested in our product, please visit our [website](https://credithy
 10. [Borrower] Withdraw token
 11. [Borrower] Payback token
 
-## How to install
-1. clone the repository
-2. npm install
-3. copy src/utils/Settings_example to src/utils/Settings and edit it.
-4. Setup Ethereum private network, deploy smart contracts
-5. Setup API server
+## How to try
+The process to install entire system is a bit cumbersome. need improvement.
+- Setup Ethereum private network, deploy smart contracts.
+- Setup IPFS server.
+- Setup API server. 
+- Set contract and oracle addresses with Remix
+- install modles on server and client
+- start server with `npm run server`
+- start client with `npm run start`
+
 
 ## Todos and concerns
 1. Generate a pdf file of legal document and store it on IPFS network

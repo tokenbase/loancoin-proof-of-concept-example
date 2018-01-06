@@ -1,9 +1,0 @@
-cd node_modules/eth-lightwallet/
-
-vi package.json
-dependencies:
- bitcore-lib: from: ^0.14.0 to: ^0.15.0
-
-npm install
-
-

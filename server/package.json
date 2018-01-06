@@ -1,0 +1,22 @@
+{
+  "name": "loancoin-proof-of-concept-example-server",
+  "version": "0.0.1",
+  "description": "API server for loancoin-proof-of-concept-example",
+  "main": "index.js",
+  "scripts": {
+    "server": "babel-node server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf build_oracle && mkdir build_oracle",
+    "build": "babel -d ./build_oracle ./server"
+  },
+  "author": "Ko Ohashi",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
